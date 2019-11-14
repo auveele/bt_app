@@ -1,7 +1,7 @@
 importScripts('/js/sw-utils.js');
 
 
-const STATIC_CACHE = 'static-v6';
+const STATIC_CACHE = 'static-v7';
 const DYNAMIC_CACHE = 'dynamic-v1';
 const INMUTABLE_CACHE = 'inmutable-v1';
 
@@ -12,7 +12,8 @@ const APP_SHELL = [
     '/css/fixes.css',
     // '/img/favicon.ico',
     '/js/app.js',
-    '/js/sw-utils.js'
+    '/js/sw-utils.js',
+    '/pages/hello.html'
 ];
 
 const APP_SHELL_INMUTABLE = [
